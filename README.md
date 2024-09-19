@@ -143,3 +143,9 @@ Cumprir níveis mais altos de acessibilidade significa que seu site será acess�
 - [ ] **4.1.1 Análise Sintática**: Conteúdo deve ser criado de acordo com padrões de HTML e XML, de modo que possa ser interpretado corretamente por tecnologias assistivas e navegadores.
 - [ ] **4.1.2 Nome, Função, Valor**: Para todos os componentes da interface do usuário, os nomes, funções, valores e mudanças devem ser identificáveis programaticamente e disponíveis para tecnologias assistivas.
 - [ ] **4.1.3 Mensagens de Status (AAA)**: Mensagens de status (por exemplo, mensagens de sucesso ou erro) devem ser identificadas de forma programática, de modo que possam ser apresentadas ao usuário por tecnologias assistivas sem receber foco.
+
+## Links de Apoio
+
+- **WCAG 2.1 Quick Reference**: [Quick Reference Guide for WCAG 2.1](https://www.w3.org/WAI/WCAG22/quickref/?versions=2.1) - Um guia rápido das diretrizes e critérios de sucesso da WCAG 2.1.
+- **Entendimento da WCAG 2.1**: [Understanding WCAG 2.1](https://www.w3.org/WAI/WCAG21/Understanding/) - Documentação detalhada para compreender os critérios de sucesso e suas implementações.
+- **WCAG 2.1 Documentação Completa**: [WCAG 2.1 Full Document](https://www.w3.org/TR/WCAG21) - O documento completo das diretrizes WCAG 2.1, com todos os critérios e requisitos detalhados.
