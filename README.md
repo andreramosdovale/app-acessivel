@@ -1,3 +1,22 @@
+## Prova de Conceito: Landing Page Acessível
+
+### Objetivo
+
+Estou desenvolvendo uma landing page como parte de uma prova de conceito (POC) para demonstrar que é possível criar um site acessível. O objetivo é cumprir o maior número possível de critérios da WCAG (Web Content Accessibility Guidelines) 2.1 para provar que a acessibilidade pode ser integrada eficazmente em um projeto web.
+
+### Tecnologias Utilizadas
+
+- **Next.js**: Framework React para desenvolvimento de aplicações web.
+- **TypeScript**: Linguagem que adiciona tipagem estática ao JavaScript, ajudando a detectar erros e melhorar a manutenção do código.
+- **Styled Components**: Biblioteca para estilização de componentes em React, permitindo o uso de CSS dentro de arquivos JavaScript.
+- **Jest**: Framework de testes para JavaScript, utilizado para garantir que o código funcione corretamente e detectar regressões durante o desenvolvimento.
+
+### Abordagem
+
+A landing page será projetada com foco na acessibilidade, seguindo as diretrizes da WCAG 2.1 para garantir que o site seja utilizável por todos, incluindo pessoas com deficiências. A implementação vai buscar atender aos critérios dos níveis A, AA e, se possível, AAA para criar um site inclusivo e acessível.
+
+A documentação e os critérios de sucesso da WCAG 2.1 serão utilizados como guia durante o desenvolvimento para garantir a conformidade com as melhores práticas de acessibilidade.
+
 ## O que é WCAG?
 
 A **WCAG** (Web Content Accessibility Guidelines) é um conjunto de diretrizes que visa tornar o conteúdo da web acessível para todos, incluindo pessoas com deficiências. A versão mais atual, **WCAG 2.1**, possui 78 critérios de sucesso. Ela inclui os 61 critérios da WCAG 2.0 e adiciona 17 novos. Uma futura versão **WCAG 3.0** está prevista para 2024, com mais requisitos para garantir acessibilidade.
@@ -12,7 +31,6 @@ Os critérios de sucesso estão divididos em três níveis:
 
 - **Nível A**: São 30 critérios básicos, mais fáceis de cumprir, que têm pouco impacto no design do site. Ideal para quem está começando a implementar acessibilidade.
 - **Nível AA**: Além dos 30 critérios do Nível A, inclui mais 20 critérios. Esse nível é mais complexo e pode exigir mudanças no design, como a melhoria no contraste de textos. Muitos sites buscam esse nível, e em alguns casos, ele é exigido por lei.
-
 - **Nível AAA**: Adiciona mais 28 critérios. É o mais complexo e nem sempre aplicável a todos os tipos de conteúdo. Embora não seja obrigatório, seguir algumas dessas diretrizes torna o site ainda mais acessível.
 
 Cumprir níveis mais altos de acessibilidade significa que seu site será acessível a um maior número de pessoas.
@@ -29,7 +47,7 @@ Cumprir níveis mais altos de acessibilidade significa que seu site será acess�
 
 - [ ] **1.2.1 Apenas Áudio e Apenas Vídeo (Pré-gravado)**: Fornecer alternativa em texto para conteúdo de áudio e vídeo.
 - [ ] **1.2.2 Legendas (Pré-gravadas)**: Fornecer legendas para todo o conteúdo de vídeo pré-gravado.
-- [ ] **1.2.3 Audiodescrição ou Média Alternativa (Pré-gravado)**: Fornecer audiodescrição ou mídia alternativa para vídeo pré-gravado.
+- [ ] **1.2.3 Audiodescrição ou Mídia Alternativa (Pré-gravado)**: Fornecer audiodescrição ou mídia alternativa para vídeo pré-gravado.
 - [ ] **1.2.4 Legendas (Ao Vivo)**: Fornecer legendas para todo o conteúdo de vídeo ao vivo.
 - [ ] **1.2.5 Audiodescrição (Pré-gravado)**: Fornecer audiodescrição para conteúdo de vídeo pré-gravado.
 - [ ] **1.2.6 Legendas (Pré-gravadas, Apenas Áudio)**: Fornecer legendas para áudio pré-gravado que não esteja acompanhado de vídeo.
