@@ -17,6 +17,10 @@ A landing page será projetada com foco na acessibilidade, seguindo as diretrize
 
 A documentação e os critérios de sucesso das WCAG 2.1 serão utilizados como guia durante o desenvolvimento para garantir a conformidade com as melhores práticas de acessibilidade.
 
+### Design da Landing Page
+
+O design da landing page será baseado no repositório público do Figma disponível [neste link](https://www.figma.com/community/file/1222060007934600841). A partir desse design, serão feitas adaptações para garantir que a página seja o mais acessível possível. O objetivo é seguir as diretrizes das WCAG e implementar melhorias que aumentem a acessibilidade, ajustando elementos de design para atender aos critérios necessários e proporcionar uma experiência inclusiva para todos os usuários.
+
 ## O que é WCAG?
 
 As **WCAG** (Web Content Accessibility Guidelines) é um conjunto de diretrizes que visa tornar o conteúdo da web acessível para todos, incluindo pessoas com deficiências. A versão mais atual, **WCAG 2.1**, possui 78 critérios de sucesso. Ela inclui os 61 critérios da WCAG 2.0 e adiciona 17 novos. Uma futura versão **WCAG 3.0** está prevista para 2024, com mais requisitos para garantir acessibilidade.
