@@ -2,7 +2,7 @@
 
 ### Objetivo
 
-Estou desenvolvendo uma landing page como parte de uma prova de conceito (POC) para demonstrar que é possível criar um site acessível. O objetivo é cumprir o maior número possível de critérios da WCAG (Web Content Accessibility Guidelines) 2.1 para provar que a acessibilidade pode ser integrada eficazmente em um projeto web. Além disso, um dos objetivos é provar a possibilidade de integrar os testes unitários com a validação dos itens de acessibilidade. Isso inclui a criação de testes que assegurem a conformidade com alguns critérios de acessibilidade, garantindo que o site não apenas esteja acessível, mas também que continue acessível ao longo do desenvolvimento.
+Estou desenvolvendo uma landing page como parte de uma prova de conceito (POC) para demonstrar que é possível criar um site acessível. O objetivo é cumprir o maior número possível de critérios das WCAG (Web Content Accessibility Guidelines) 2.1 para provar que a acessibilidade pode ser integrada eficazmente em um projeto web. Além disso, um dos objetivos é provar a possibilidade de integrar os testes unitários com a validação dos itens de acessibilidade. Isso inclui a criação de testes que assegurem a conformidade com alguns critérios de acessibilidade, garantindo que o site não apenas esteja acessível, mas também que continue acessível ao longo do desenvolvimento.
 
 ### Tecnologias Utilizadas
 
@@ -13,13 +13,13 @@ Estou desenvolvendo uma landing page como parte de uma prova de conceito (POC) p
 
 ### Abordagem
 
-A landing page será projetada com foco na acessibilidade, seguindo as diretrizes da WCAG 2.1 para garantir que o site seja utilizável por todos, incluindo pessoas com deficiências. A implementação vai buscar atender aos critérios dos níveis A, AA e, se possível, AAA para criar um site inclusivo e acessível.
+A landing page será projetada com foco na acessibilidade, seguindo as diretrizes das WCAG 2.1 para garantir que o site seja utilizável por todos, incluindo pessoas com deficiências. A implementação vai buscar atender aos critérios dos níveis A, AA e, se possível, AAA para criar um site inclusivo e acessível.
 
-A documentação e os critérios de sucesso da WCAG 2.1 serão utilizados como guia durante o desenvolvimento para garantir a conformidade com as melhores práticas de acessibilidade.
+A documentação e os critérios de sucesso das WCAG 2.1 serão utilizados como guia durante o desenvolvimento para garantir a conformidade com as melhores práticas de acessibilidade.
 
 ## O que é WCAG?
 
-A **WCAG** (Web Content Accessibility Guidelines) é um conjunto de diretrizes que visa tornar o conteúdo da web acessível para todos, incluindo pessoas com deficiências. A versão mais atual, **WCAG 2.1**, possui 78 critérios de sucesso. Ela inclui os 61 critérios da WCAG 2.0 e adiciona 17 novos. Uma futura versão **WCAG 3.0** está prevista para 2024, com mais requisitos para garantir acessibilidade.
+As **WCAG** (Web Content Accessibility Guidelines) é um conjunto de diretrizes que visa tornar o conteúdo da web acessível para todos, incluindo pessoas com deficiências. A versão mais atual, **WCAG 2.1**, possui 78 critérios de sucesso. Ela inclui os 61 critérios da WCAG 2.0 e adiciona 17 novos. Uma futura versão **WCAG 3.0** está prevista para 2024, com mais requisitos para garantir acessibilidade.
 
 ## O que são critérios de sucesso?
 
