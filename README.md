@@ -2,7 +2,7 @@
 
 ### Objetivo
 
-Estou desenvolvendo uma landing page como parte de uma prova de conceito (POC) para demonstrar que é possível criar um site acessível. O objetivo é cumprir o maior número possível de critérios da WCAG (Web Content Accessibility Guidelines) 2.1 para provar que a acessibilidade pode ser integrada eficazmente em um projeto web.
+Estou desenvolvendo uma landing page como parte de uma prova de conceito (POC) para demonstrar que é possível criar um site acessível. O objetivo é cumprir o maior número possível de critérios da WCAG (Web Content Accessibility Guidelines) 2.1 para provar que a acessibilidade pode ser integrada eficazmente em um projeto web. Além disso, um dos objetivos é provar a possibilidade de integrar os testes unitários com a validação dos itens de acessibilidade. Isso inclui a criação de testes que assegurem a conformidade com alguns critérios de acessibilidade, garantindo que o site não apenas esteja acessível, mas também que continue acessível ao longo do desenvolvimento.
 
 ### Tecnologias Utilizadas
 
