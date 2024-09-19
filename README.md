@@ -19,7 +19,7 @@ A documentação e os critérios de sucesso das WCAG 2.1 serão utilizados como 
 
 ### Design da Landing Page
 
-O design da landing page será baseado no repositório público do Figma disponível [neste link](https://www.figma.com/community/file/1222060007934600841), criado por **Muntasir** ([@itsmuntasirb](https://www.figma.com/@itsmuntasirb)). A partir desse design, serão feitas adaptações para garantir que a página seja o mais acessível possível. O objetivo é seguir as diretrizes da WCAG 2.1 e implementar melhorias que aumentem a acessibilidade, ajustando elementos de design para atender aos critérios necessários e proporcionar uma experiência inclusiva para todos os usuários.
+O design da landing page será baseado no repositório público do Figma disponível [neste link](https://www.figma.com/community/file/1222060007934600841), criado por **Muntasir** ([@itsmuntasirb](https://www.figma.com/@itsmuntasirb)). A partir desse design, serão feitas adaptações para garantir que a página seja o mais acessível possível. O objetivo é seguir as diretrizes das WCAG 2.1 e implementar melhorias que aumentem a acessibilidade, ajustando elementos de design para atender aos critérios necessários e proporcionar uma experiência inclusiva para todos os usuários.
 
 ## O que é WCAG?
 
