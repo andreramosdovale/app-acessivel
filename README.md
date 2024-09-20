@@ -39,6 +39,89 @@ Os critérios de sucesso estão divididos em três níveis:
 
 Cumprir níveis mais altos de acessibilidade significa que seu site será acessível a um maior número de pessoas.
 
+## Como Testar a Acessibilidade de um Site
+
+Garantir que um site seja acessível envolve testar suas funcionalidades para verificar a conformidade com os critérios da WCAG. A seguir, são apresentados diferentes métodos e ferramentas que podem ser usados para realizar testes manuais e automatizados de acessibilidade.
+
+### 1. Inspecionar Elementos com Ferramentas de Desenvolvedor do Navegador
+
+Os navegadores, como Google Chrome e Firefox, oferecem ferramentas embutidas para inspecionar e analisar a estrutura de acessibilidade do site.
+
+- **Como usar**:
+
+  1. Abra o navegador e clique com o botão direito em qualquer parte da página.
+  2. Selecione "Inspecionar" ou "Ferramentas de Desenvolvedor" (Ctrl+Shift+I).
+  3. Navegue até a aba "Acessibilidade" (no Chrome) ou inspecione os "Elementos" para revisar atributos como `alt`, `aria-*`, e a estrutura semântica.
+  4. Teste a navegação com o teclado para verificar a ordem dos elementos e a funcionalidade.
+
+- **Prós**:
+  - Controle completo para inspecionar elementos específicos.
+  - Útil para verificar manualmente atributos de acessibilidade e semântica HTML.
+- **Contras**:
+  - Processo manual e propenso a erros humanos.
+  - Não oferece relatórios ou insights automáticos.
+
+### 2. Google Lighthouse
+
+O **Google Lighthouse** é uma ferramenta automatizada que gera relatórios sobre a acessibilidade de uma página diretamente no Chrome DevTools.
+
+- **Como usar**:
+  1. Abra o site no Chrome.
+  2. Clique com o botão direito e selecione "Inspecionar".
+  3. Vá para a aba "Lighthouse".
+  4. Selecione apenas "Accessibility" e clique em "Generate report".
+- **Prós**:
+  - Fácil de usar e integrado ao navegador.
+  - Fornece uma pontuação de acessibilidade e recomendações de melhorias.
+- **Contras**:
+  - Relatório de acessibilidade básico, com análise simples.
+  - Pode não detectar problemas complexos ou específicos de contexto.
+
+### 3. Extensão Wave Evaluation Tool
+
+A **Wave Evaluation Tool** é uma extensão popular que analisa a acessibilidade e destaca visualmente os problemas diretamente na interface da página.
+
+- **Como usar**:
+  1. Instale a extensão **WAVE Evaluation Tool** no navegador.
+  2. Acesse o site desejado.
+  3. Clique no ícone da extensão para gerar um relatório visual da página.
+- **Prós**:
+  - Interface intuitiva com ícones visuais sobre a página, facilitando a localização dos problemas.
+  - Oferece informações detalhadas e links para entender os erros e soluções sugeridas.
+- **Contras**:
+
+  - A análise visual pode ficar sobrecarregada em páginas muito grandes ou com muitos elementos.
+  - Pode gerar falsos positivos, exigindo que o desenvolvedor valide manualmente alguns resultados.
+
+- **Referência**: [Wave Evaluation Tool](https://wave.webaim.org/)
+
+### 4. Extensão Axe DevTools
+
+A **Axe DevTools**, desenvolvida pela Deque, é uma ferramenta robusta que oferece uma análise detalhada de acessibilidade, com recomendações práticas para resolver problemas. **Minha preferência pessoal** é o uso do Axe devido à sua precisão e funcionalidade avançada.
+
+- **Como usar**:
+  1. Instale a extensão **Axe DevTools** no navegador.
+  2. Abra o site desejado.
+  3. Abra as Ferramentas de Desenvolvedor (Ctrl+Shift+I).
+  4. Navegue até a aba "Axe" e clique em "Analyze".
+- **Prós**:
+
+  - Detecção precisa e detalhada de problemas de acessibilidade, com guias claros para correção.
+  - Recursos avançados, como integração com fluxos de testes contínuos, relatórios exportáveis, e detecção de falhas dinâmicas.
+  - A biblioteca **[@axe-core/react](https://www.npmjs.com/package/@axe-core/react)** pode ser utilizada para integrar facilmente a análise de acessibilidade com o desenvolvimento em React, permitindo a detecção de problemas de forma contínua durante o desenvolvimento.
+  - O uso dessa biblioteca é considerado seguro, com uma **alta avaliação** de segurança segundo o **[Snyk Advisor](https://snyk.io/advisor/npm-package/@axe-core/react)**, reforçando a confiabilidade de sua implementação.
+
+- **Contras**:
+
+  - Pode ser complexo para iniciantes devido à quantidade de informações fornecidas.
+  - Requer análise contínua em sites que mudam frequentemente.
+
+- **Referência**: [Axe DevTools](https://www.deque.com/axe/)
+
+### Conclusão
+
+Essas ferramentas e métodos ajudam a garantir que seu site esteja alinhado com os padrões de acessibilidade, oferecendo uma combinação de análises manuais e automatizadas. O Google Lighthouse fornece uma análise básica, ideal para diagnósticos rápidos, enquanto as extensões como WAVE e Axe oferecem funcionalidades avançadas para desenvolvedores que buscam uma revisão mais detalhada. Pessoalmente, **prefiro o uso do Axe**, pela profundidade da análise e sua integração prática com projetos React, garantindo uma acessibilidade contínua durante o desenvolvimento. A combinação dessas abordagens pode assegurar uma acessibilidade mais ampla e inclusiva.
+
 ## Checklist de Acessibilidade WCAG 2.1
 
 ### Princípio 1: Perceptível
