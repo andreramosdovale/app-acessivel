@@ -41,7 +41,7 @@ Cumprir níveis mais altos de acessibilidade significa que seu site será acess�
 
 ## Como Testar a Acessibilidade de um Site
 
-Garantir que um site seja acessível envolve testar suas funcionalidades para verificar a conformidade com os critérios da WCAG. A seguir, são apresentados diferentes métodos e ferramentas que podem ser usados para realizar testes manuais e automatizados de acessibilidade.
+Garantir que um site seja acessível envolve testar suas funcionalidades para verificar a conformidade com os critérios das WCAG. A seguir, são apresentados diferentes métodos e ferramentas que podem ser usados para realizar testes manuais e automatizados de acessibilidade.
 
 ### 1. Inspecionar Elementos com Ferramentas de Desenvolvedor do Navegador
 
