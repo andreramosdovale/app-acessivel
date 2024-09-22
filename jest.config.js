@@ -10,5 +10,13 @@ const customJestConfig = {
       '<rootDir>/__tests__'
     ],
     testEnvironment: "jest-environment-jsdom",
+    collectCoverage: true,
+    coverageDirectory: 'coverage',
+    coverageReporters: ['json', 'lcov', 'text', 'clover'],
+    collectCoverageFrom: [
+      'src/**/*.{js,jsx,ts,tsx}',
+      '!src/**/*.d.ts',
+      '!src/**/index.ts',
+    ],
 };
 module.exports = createJestConfig(customJestConfig);
