@@ -1,5 +1,3 @@
-"use client";
-
 import styled from "styled-components";
 
 const Header = styled.header`
@@ -11,8 +9,4 @@ const Header = styled.header`
   text-align: center;
 `;
 
-const HeaderComponent = () => {
-  return <Header>Meu Site Acessível</Header>;
-};
-
-export default HeaderComponent;
+export { Header };
