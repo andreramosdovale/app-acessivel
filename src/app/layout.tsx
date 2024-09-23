@@ -1,6 +1,7 @@
 "use client";
 
 import { ThemeContextProvider } from "@/context/ThemeContext";
+import StyledComponentsRegistry from "@/lib/StyledComponentsRegistry";
 import "@/styles/global.css";
 
 export default function RootLayout({
@@ -11,7 +12,9 @@ export default function RootLayout({
   return (
     <html lang="pt-br">
       <body>
-        <ThemeContextProvider>{children}</ThemeContextProvider>
+        <StyledComponentsRegistry>
+          <ThemeContextProvider>{children}</ThemeContextProvider>
+        </StyledComponentsRegistry>
       </body>
     </html>
   );
